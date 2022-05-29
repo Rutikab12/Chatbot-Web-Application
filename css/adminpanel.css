@@ -26,6 +26,17 @@ button {
     transform: rotate(180deg);
 }
 
+.form-control-submit-button {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 @media (min-width: 992px) {
     body {
         overflow: auto !important;
