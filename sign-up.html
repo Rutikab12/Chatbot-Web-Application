@@ -109,28 +109,28 @@
                         <p class="mb-4">Fill out the form below to sign up for the service. Already signed up? Then just <a class="blue" href="log-in.html">Log In</a></p>
 
                         <!-- Sign Up Form -->
-                        <form action="../register.php" method="POST">
+                        <form action="./php/signup.php" method="POST">
                             <div class="mb-4 form-floating">
                                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
                                 <label for="floatingInput">Email address</label>
                             </div>
                             <div class="mb-4 form-floating">
                                 <input name="fname" type="text" class="form-control" id="floatingInput2" placeholder="First name">
-                                <label for="floatingInput">First name</label>
+                                <label for="floatingInput">Full Name</label>
                             </div>
                             <div class="mb-4 form-floating">
-                                <input name="lname" type="text" class="form-control" id="floatingInput" placeholder="Last Name">
-                                <label for="floatingInput">Last Name</label>
+                                <input name="txtpassword" type="password" class="form-control" id="floatingInput" placeholder="Last Name">
+                                <label for="floatingInput">Password</label>
                             </div>
                             <div class="mb-4 form-floating">
-                                <input name="phoneno" type="text" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
+                                <input name="txtphone" type="text" class="form-control" id="floatingPassword" placeholder="Phone Number" required>
                                 <label for="floatingPassword">Phone Number</label>
                             </div>
                             <div class="mb-4 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">I agree with the site's stated <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a></label>
                             </div>
-                            <button type="submit" class="form-control-submit-button">Sign up</button>
+                            <button type="submit" name="submit" class="form-control-submit-button">Sign up</button>
                         </form>
                         <!-- end of sign up form -->
 

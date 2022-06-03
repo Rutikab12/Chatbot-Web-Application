@@ -72,7 +72,11 @@
 
                 </ul>
                 <span class="nav-item">
+<<<<<<< Updated upstream
                         <a class="btn-outline-sm" href="./dashboard/adminpanel.html">Log out</a>
+=======
+                        <a class="btn-outline-sm" href="#">Log in</a>
+>>>>>>> Stashed changes
                     </span>
             </div>
             <!-- end of navbar-collapse -->
@@ -109,13 +113,13 @@
                         <p class="mb-4">You don't have a password? Then please <a class="blue" href="sign-up.html">Sign Up</a></p>
 
                         <!-- Log In Form -->
-                        <form>
+                        <form action="./php/login.php" method="POST">
                             <div class="mb-4 form-floating">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                 <label for="floatingInput">Email address</label>
                             </div>
                             <div class="mb-4 form-floating">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
                                 <label for="floatingPassword">Password</label>
                             </div>
                             <div class="mb-4 form-check">
