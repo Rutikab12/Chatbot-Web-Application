@@ -1,3 +1,16 @@
+<?php 
+
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location: index.php");
+}
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -85,11 +98,9 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                        <a class="btn-outline-sm" href="index.php">Log in</a>
+                        <a class="btn-outline-sm" href="logout.php">Log out</a>
                 </span>
-                <span class="nav-item">
-                    <a class="btn-outline-sm" href="register.php">Get started</a>
-            </span>
+                
             </div>
             <!-- end of navbar-collapse -->
         </div>
