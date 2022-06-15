@@ -1,0 +1,328 @@
+/*--------Chat Container CSS-------------------*/
+
+.flow {
+    font-family: 'Open Sans', sans-serif;
+    width: 350px;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15%;
+    border-radius: 15px;
+    background-color: #515365;
+}
+
+@media only screen and (max-width:600px) {
+    .flow {
+        font-family: 'Open Sans', sans-serif;
+        width: 96%;
+        height: 400px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        margin-top: 45%;
+        border-radius: 15px;
+        left: 10px;
+        background-color: #515365;
+    }
+    #btn-submit {
+        width: 90%;
+    }
+    #btn-submit:hover {
+        width: 90%;
+    }
+    .footer-chat {
+        display: none;
+    }
+    .chat-popup {
+        left: 40px;
+        margin-right: 0;
+    }
+}
+
+
+/*--------Chat Container CSS Ends-------------------*/
+
+
+/*--------For Chat Icon-------------------------*/
+
+.chat-popup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 180px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.chat-popup h3 {
+    text-align: center;
+}
+
+.chat-popup input {
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    width: 95%;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#flowchat {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 80px;
+}
+
+.chat_icon {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 20px;
+    z-index: 1100;
+    padding: 0;
+    font-size: 15px;
+    color: #0080ff;
+    cursor: pointer;
+}
+
+
+/*-------------For chat Icon Ends------------*/
+
+
+/*-------------Inner Elements CSS---------------------------------------*/
+
+ul.chat-window {
+    width: 350px;
+    height: 400px;
+    margin-top: 0;
+    overflow-y: auto;
+    padding: 20px;
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*.header {
+    width: 340px;
+    border-radius: 5px;
+    padding: 5px;
+    position: fixed;
+    margin: 0;
+    font-size: 15px;
+    background-color: #a445b2;
+    color: #ffffff;
+    text-align: center;
+}*/
+
+.footer-chat {
+    width: 350px;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+    color: #fff;
+    margin-top: 370px;
+}
+
+ul.chat-window>li .text {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+
+ul.chat-window>li.bot .text {
+    background-color: #01bad8;
+    color: #fff;
+    float: left;
+}
+
+ul.chat-window>li {
+    clear: both;
+    max-width: 80%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+ul.chat-window>li.user {
+    float: right;
+}
+
+ul.chat-window>li.bot {
+    float: left;
+}
+
+ul.chat-window>li.user .text {
+    background-color: #ddd;
+}
+
+ul.chat-window>li.options {
+    margin-top: 10px;
+    list-style: none;
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+
+ul.chat-window>li.options>ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul.chat-window>li.options>ul>li {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #01bad8;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.typing-indicator {
+    background-color: #E6E7ED;
+    will-change: transform;
+    width: auto;
+    border-radius: 50px;
+    padding: 10px;
+    display: table;
+    margin: 0;
+    margin-left: 10px;
+    position: relative;
+    -webkit-animation: 2s bulge infinite ease-out;
+    animation: 2s bulge infinite ease-out;
+}
+
+.typing-indicator::before,
+.typing-indicator::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #E6E7ED;
+}
+
+.typing-indicator::after {
+    height: 10px;
+    width: 10px;
+    left: -10px;
+    bottom: -10px;
+}
+
+.typing-indicator span {
+    height: 8px;
+    width: 8px;
+    float: left;
+    margin: 0 1px;
+    background-color: #9E9EA1;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.typing-indicator span:nth-of-type(1) {
+    -webkit-animation: 1s blink infinite 0.3333s;
+    animation: 1s blink infinite 0.3333s;
+}
+
+.typing-indicator span:nth-of-type(2) {
+    -webkit-animation: 1s blink infinite 0.6666s;
+    animation: 1s blink infinite 0.6666s;
+}
+
+.typing-indicator span:nth-of-type(3) {
+    -webkit-animation: 1s blink infinite 0.9999s;
+    animation: 1s blink infinite 0.9999s;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bulge {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bulge {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+
+/*---------------Inner Element CSS Ends-------------------------------------*/
+
+
+/*-----------First Page Form for user info----------------------*/
+
+#btn-submit {
+    background-color: #a445b2;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    width: 95%;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#btn-submit:hover {
+    background-color: #a445b2;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    width: 95%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*---------------First Page Form for user info------------------------------------*/
+
+
+/*-----------Chat window scroll bar--------------*/
+
+.chat-window::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+.chat-window::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+/*-------------Chat window scroll bar css Ends---------------*/

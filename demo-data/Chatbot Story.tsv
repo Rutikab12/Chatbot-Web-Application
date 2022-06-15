@@ -1,0 +1,21 @@
+id	text	messageType	imageUrl	nextMessageId	option1	option1_nextMessageId	option2	option2_nextMessageId	option3	option3_nextMessageId	option4	option4_nextMessageId	option5	option5_nextMessageId	option6	option6_nextMessageId
+1	Hey	Question			Hi	2										
+2	Would you like to hear an interesting story?	Question			Yes	4	No	3								
+3	No? That is too bad. Would you like to reconsider?	Question			Yes, ok. This story better be good.	4										
+4	Great! You will not regret this.	Text		5												
+5	Once upon a time, an old man lived in the village.	Text		6												
+6	He was one of the most unfortunate people in the world. 	Text		7												
+7	He was always gloomy, he constantly complained and was always in a bad mood.	Text		8												
+8	Would you like to be around someone like that?	Question			Yes	10	No	11								
+10	People that complain usually are negative. You should always try and show them the bright side of life.	Text		12												
+11	Exactly, People avoided him, because his misfortune became contagious. It was even unnatural and insulting to be happy next to him.	Text		12												
+12	But one day, when he turned eighty years old, an incredible thing happened.	Text		13												
+13	Can you guess what happended?	Question			No idea	14	He became happy	15								
+14	The Old Man was happy that day. He did not complain about anything.	Text		15												
+15	Surprisingly so. He became happy.	Text		16												
+16	The villagers gathered together and ask him what had happened	Text		17												
+17	Would you like to know what he said?	Question			Yes, I am very curious!	18										
+18	He said - Eighty years I’ve been chasing happiness, and it was useless...	Text		19												
+19	...and then I decided to live without happiness and just enjoy life.	Text		20												
+20	That’s why I’m happy now.	Text		21												
+21	The moral of the story is - Do not chase happiness. Enjoy your life.	Text														

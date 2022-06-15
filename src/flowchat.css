@@ -1,0 +1,155 @@
+ul.chat-window {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin-top: 0;
+    padding: 20px;
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul.chat-window>li .text {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+
+ul.chat-window>li.bot .text {
+    background-color: #01bad8;
+    color: #fff;
+    float: left;
+}
+
+ul.chat-window>li {
+    clear: both;
+    max-width: 80%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+}
+
+ul.chat-window>li.user {
+    float: right;
+}
+
+ul.chat-window>li.bot {
+    float: left;
+}
+
+ul.chat-window>li.user .text {
+    background-color: #ddd;
+}
+
+ul.chat-window>li.options {
+    margin-top: 10px;
+    list-style: none;
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+
+ul.chat-window>li.options>ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul.chat-window>li.options>ul>li {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #01bad8;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.typing-indicator {
+    background-color: #E6E7ED;
+    will-change: transform;
+    width: auto;
+    border-radius: 50px;
+    padding: 10px;
+    display: table;
+    margin: 0;
+    margin-left: 10px;
+    position: relative;
+    -webkit-animation: 2s bulge infinite ease-out;
+    animation: 2s bulge infinite ease-out;
+}
+
+.typing-indicator::before,
+.typing-indicator::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #E6E7ED;
+}
+
+.typing-indicator::after {
+    height: 10px;
+    width: 10px;
+    left: -10px;
+    bottom: -10px;
+}
+
+.typing-indicator span {
+    height: 8px;
+    width: 8px;
+    float: left;
+    margin: 0 1px;
+    background-color: #9E9EA1;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+
+.typing-indicator span:nth-of-type(1) {
+    -webkit-animation: 1s blink infinite 0.3333s;
+    animation: 1s blink infinite 0.3333s;
+}
+
+.typing-indicator span:nth-of-type(2) {
+    -webkit-animation: 1s blink infinite 0.6666s;
+    animation: 1s blink infinite 0.6666s;
+}
+
+.typing-indicator span:nth-of-type(3) {
+    -webkit-animation: 1s blink infinite 0.9999s;
+    animation: 1s blink infinite 0.9999s;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes bulge {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bulge {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
