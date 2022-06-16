@@ -67,20 +67,31 @@ So once you did all necessary steps from the above section. Well, you are now go
     ▶ After writing data, follow screenshots you see below<br><br>
     <table>
     <tr>
-      <th>Step-1</th>
-      <th>Step-2</th>
-      <th>Step-3</th>
-      <th>Step-4</th>
-      <th>Step-5</th>
+      <th>Step-1: Copy the sample data from GitHub.</th>
+      <th>Step-2: Paste the data in editor, given in admin panel.</th>
     </tr>
     <tr>
-      <td><img src="images/notepad1"/></td>
-      <td><img src="images/notepad2"/></td>
-      <td><img src="images/notepad3"/></td>
-      <td><img src="images/notepad4"/></td>
-      <td><img src="images/notepad5"/></td>
+      <td><img src="images/notepad1.jpg"/></td>
+      <td><img src="images/notepad2.jpg"/></td>
+    </tr>
+    <tr>
+      <th>Step-3: Edit the data according to your need.</th>
+      <th>Step-4: Copy all the edited data, Open Notepad and paste the data.</th>
+    </tr>
+    <tr>
+      <td><img src="images/notepad2.jpg"/></td>
+      <td><img src="images/notepad3.jpg"/></td>
+    </tr>
+    <tr>
+      <th>Step-5: Save the file as data.json</th>
+      <th>Step-6: Now the next step is integration</th>
+    </tr>
+    <tr>
+      <td><img src="images/notepad4.jpg"/></td>
+      <td></td>
     </tr>
    </table>
+   
     
     
     
