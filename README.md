@@ -65,12 +65,23 @@ So once you did all necessary steps from the above section. Well, you are now go
     ▶ For simple generation, you can use our **pre-designed JSON data template**. Copy and Paste it in editor and start editing accordingly.<br>
     ▶ To copy and edit the demo data file, [Copy & Paste Me](https://github.com/Rutikab12/Chatbot-Web-Application/blob/main/demo-data/data.json)<br>
     ▶ After writing data, follow screenshots you see below<br><br>
-    <img src="images/notepad1"/><br><br>
-    <img src="images/notepad2"/><br><br>
-    <img src="images/notepad3"/><br><br>
-    <img src="images/notepad4"/><br><br>
-    <img src="images/notepad5"/><br><br>
-    <img src="images/notepad6"/><br><br>
+    <table>
+    <tr>
+      <th>Step-1</th>
+      <th>Step-2</th>
+      <th>Step-3</th>
+      <th>Step-4</th>
+      <th>Step-5</th>
+    </tr>
+    <tr>
+      <td><img src="images/notepad1"/></td>
+      <td><img src="images/notepad2"/></td>
+      <td><img src="images/notepad3"/></td>
+      <td><img src="images/notepad4"/></td>
+      <td><img src="images/notepad5"/></td>
+    </tr>
+   </table>
+    
     
     
 
