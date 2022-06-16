@@ -30,7 +30,7 @@ So once you did all necessary steps from the above section. Well, you are now go
 - To use admin panel , you need to be logged in.
 - You will be automatically, redireted to profile section of dashboard. ➡️
   - Here you can see following type of boxes to be filled.<br><br>
-    <img src="images/profile section.jpg" style="height:50%;"/><br><br>
+    <img src="images/readme/profile section.jpg" style="height:50%;"/><br><br>
   - Main purpose of these fields is to gather the business details 🔂 of the user, who is going to make the chatbot 📇. If any user don't have any business (🧑🏽‍)💼 and is a student (🧑🏾‍💻) then he can add college details or project details accordingly.
   - This gathering of details is all about the future enhancements in the project for business profile section..🔜
   - Here the first section is <b>Business Details</b> and other one is <b>Business User Role</b>, what does it define?<br><br>
@@ -52,7 +52,7 @@ So once you did all necessary steps from the above section. Well, you are now go
     ▶ Quick links for quick navigation, at the top of the section. <br>
     ▶ Steps to enter data for chatbot in JSON format. <br>
     ▶ Explanation about each terms included JSON format, for easy understanding. <br><br>
-    <img src="images/information section.jpg" style="height:55%;"/><br><br>
+    <img src="images/readme/information section.jpg" style="height:55%;"/><br><br>
     ▶ Again for better understanding and live genration and integration of chatbot , please see this [Live Demo](#)<br>
     
   <---------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -69,23 +69,23 @@ So once you did all necessary steps from the above section. Well, you are now go
       <th>Step-2: Paste the data in editor, given in admin panel.</th>
     </tr>
     <tr>
-      <td><img src="images/notepad1.jpg"/></td>
-      <td><img src="images/notepad2.jpg"/></td>
+      <td><img src="images/readme/notepad1.jpg"/></td>
+      <td><img src="images/readme/notepad2.jpg"/></td>
     </tr>
     <tr>
       <th>Step-3: Edit the data according to your need.</th>
       <th>Step-4: Copy all the edited data, Open Notepad and paste the data.</th>
     </tr>
     <tr>
-      <td><img src="images/notepad2.jpg"/></td>
-      <td><img src="images/notepad3.jpg"/></td>
+      <td><img src="images/readme/notepad2.jpg"/></td>
+      <td><img src="images/readme/notepad3.jpg"/></td>
     </tr>
     <tr>
       <th>Step-5: Save the file as data.json</th>
       <th>Step-6: Now the next step is integration</th>
     </tr>
     <tr>
-      <td><img src="images/notepad4.jpg"/></td>
+      <td><img src="images/readme/notepad4.jpg"/></td>
       <td></td>
     </tr>
    </table>
@@ -99,38 +99,38 @@ So once you did all necessary steps from the above section. Well, you are now go
     <th>Step-2: Unzip it, and paste the two folders **demo-data** and **src** in your project folder.</th>
   </tr>
   <tr>
-    <td><img src="images/integration1.jpg"/></td>
-    <td><img src="images/integration2.jpg"/></td>
+    <td><img src="images/readme/integration1.jpg"/></td>
+    <td><img src="images/readme/integration2.jpg"/></td>
   </tr>
   <tr>
     <th>Step-2: Unzip it, and paste the two folders **demo-data** and **src** in your project folder.</th>
     <th>Step-3: Copy the **demo** and **src** folder.</th>
   </tr>
   <tr>
-    <td><img src="images/integration2.jpg"/></td>
-    <td><img src="images/integration3.jpg"/></td>
+    <td><img src="images/readme/integration2.jpg"/></td>
+    <td><img src="images/readme/integration3.jpg"/></td>
   </tr>
   <tr>
     <th>Step-4: Paste those two folder in project folder.</th>
     <th>Step-5: Now copy the **data.json** file and paste in inside **demo-data** folder.</th>
   </tr>
   <tr>
-    <td><img src="images/integration4.jpg"/></td>
-    <td><img src="images/integration5.jpg"/></td>
+    <td><img src="images/readme/integration4.jpg"/></td>
+    <td><img src="images/readme/integration5.jpg"/></td>
   </tr> 
   <tr>
     <th>Step-6: Now copy link tags,paste it inside <head> tag of the page, where you want to integrate chatbot widget.</th>
     <th>Step-7: Now copy script tags,paste it inside <body> tag of the page, where you want to integrate chatbot widget.</th>
   </tr>
   <tr>
-     <td><img src="images/integration6.jpg"/></td>
-     <td><img src="images/integration7.jpg"/></td>
+     <td><img src="images/readme/integration6.jpg"/></td>
+     <td><img src="images/readme/integration7.jpg"/></td>
   </tr>
   <tr>
     <th>Step-8: Now refresh & run the page where you have place the above tags.</th>
   </tr>
   <tr>
-    <td><img src="images/integration8.jpg"/></td>
+    <td><img src="images/readme/integration8.jpg"/></td>
     
   </tr>
   </table>
