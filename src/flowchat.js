@@ -43,7 +43,7 @@
 
     function startChat(container, data, startId, delay) {
         // clear chat window
-        container.html("<div class='footer-chat'>ChatConnect <sup>Powered By RCERT</sup></div>");
+        container.html("<div class='footer-chat'>ChatConnect <sup>Powered By CC</sup></div>");
         container.append("<ul class='chat-window'></ul>");
 
         // get the first message
@@ -101,11 +101,11 @@
     }
 
     function generateMessageHTML(container, messages, m, delay) {
-        // create template if text is not null
+        // create template if text is not null '<img src="' + m.imageUrl + '"><br/>' + m.text + '
         console.log(m.imageUrl);
         if (m.imageUrl != '')
-            var $template = $('<li class="bot"><div class="text">' + '<img src="' + m.imageUrl + '"><br/>' + m.text + '</div></li>');
-        else if (m.text != null)
+            var $template = $('<li class="bot"><div class="text">' + '<a href="' + m.text + '"></a><br/>' + m.imageUrl + '</div></li>');
+        else if (m.text != '')
             var $template = $('<li class="bot"><div class="text">' + m.text + '</div></li>');
         else
             var $template = $('');
