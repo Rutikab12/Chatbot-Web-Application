@@ -12,7 +12,12 @@ $rs = mysqli_query($link, $sql);
 //$link_address='../log-in.html';
 if($rs )
 {
-	echo '<script>alert("Data Inserted Successfully.")</script>';
+	//echo '<script>alert("Data Inserted Successfully.")</script>';
+	//header('Location: ../dashboard/adminpanel.html');
+	echo "<script>
+      window.location.href = 'http://chatconnect.io.in/dashboard/adminpanel.html';
+      alert('Data Inserted Successfully.');
+    </script>";
 }
 
 ?>

@@ -18,7 +18,11 @@ $sql = "INSERT INTO `business_register` (`business_name`, `business_address`, `b
 $rs = mysqli_query($link,$sql);
 if($rs )
 {
-	echo '<script>alert("Data Inserted Successfully.")</script>';
-    //header('Location: adminpanel.html');
+	//echo '<script>alert("Data Inserted Successfully.")</script>';
+    //header("Location: ../dashboard/adminpanel.html");
+    echo "<script>
+      window.location.href = 'http://chatconnect.io.in/dashboard/adminpanel.html';
+      alert('Data Inserted Successfully.');
+    </script>";
 }
 ?>

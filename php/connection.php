@@ -3,17 +3,17 @@
 
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Rutik@1213b');
-define('DB_NAME', 'ChatConnect');
+define("DB_HOST", "localhost");
+define("DB_USERNAME", "chatcpix_Pranay");
+define("DB_PASSWORD", "Abcd1234");
+define("DB_NAME", "chatcpix_ChatConnect");
  
 /* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$link = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
 // Check connection
 if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+    die("ERROR: Could not connect." .mysqli_connect_error());
 }
 
 
