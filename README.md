@@ -52,7 +52,26 @@ So once you did all necessary steps from the above section. Well, you are now go
   - In this section , all the necessary steps are explained with the help of steps, as follows...<br>
     ▶ Quick links for quick navigation, at the top of the section. <br>
     ▶ Steps to enter data for chatbot in JSON format. <br>
-    ▶ Explanation about each terms included JSON format, for easy understanding. <br>
+    ▶ Explanation about each terms included JSON format, for easy understanding. <br><br>
     <img src="images/information section.jpg"/><br><br>
+    ▶ Again for better understanding and live genration and integration of chatbot , please see this [Live Demo](#)<br>
+    
+  <---------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+- Now move to next section <b>Generate</b>
+  - In this section you will find a Notepad like editor, where you have to follow below steps.
+    ▶ First think, how you will greet user once he opens chatbot wodget on your website. Write few messages for it.<br>
+    ▶ Start writing the data for chatbot, as displayed on **example template** in **Information Section**. <br>
+    ▶ For simple generation, you can use our **pre-designed JSON data template**. Copy and Paste it in editor and start editing accordingly.<br>
+    ▶ To copy and edit the demo data file, [Copy & Paste Me](https://github.com/Rutikab12/Chatbot-Web-Application/blob/main/demo-data/data.json)<br>
+    ▶ After writing data, follow screenshots you see below<br><br>
+    <img src="images/notepad1"/><br><br>
+    <img src="images/notepad2"/><br><br>
+    <img src="images/notepad3"/><br><br>
+    <img src="images/notepad4"/><br><br>
+    <img src="images/notepad5"/><br><br>
+    <img src="images/notepad6"/><br><br>
+    
+    
 
 
