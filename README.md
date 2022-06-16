@@ -30,7 +30,7 @@ So once you did all necessary steps from the above section. Well, you are now go
 - To use admin panel , you need to be logged in.
 - You will be automatically, redireted to profile section of dashboard. ➡️
   - Here you can see following type of boxes to be filled.<br><br>
-    <img src="images/profile section.jpg"/><br><br>
+    <img src="images/profile section.jpg" style="height:50%;"/><br><br>
   - Now what all these fields indicate and expect.
   - Main purpose of these fields is to gather the business details 🔂 of the user, who is going to make the chatbot 📇. If any user don't have any business (🧑🏽‍)💼 and is a student (🧑🏾‍💻) then he can add college details or project details accordingly.
   - This gathering of details is all about the future enhancements in the project for business profile section..🔜
@@ -48,19 +48,18 @@ So once you did all necessary steps from the above section. Well, you are now go
   
   <---------------------------------------------------------------------------------------------------------------------------------------------------->
   
-- Now let's go to next section <b>Information</b>
+- Now let's go to next section <b>Information</b> 📌
   - In this section , all the necessary steps are explained with the help of steps, as follows...<br>
     ▶ Quick links for quick navigation, at the top of the section. <br>
     ▶ Steps to enter data for chatbot in JSON format. <br>
     ▶ Explanation about each terms included JSON format, for easy understanding. <br><br>
-    <img src="images/information section.jpg"/><br><br>
+    <img src="images/information section.jpg" style="height:55%;"/><br><br>
     ▶ Again for better understanding and live genration and integration of chatbot , please see this [Live Demo](#)<br>
     
   <---------------------------------------------------------------------------------------------------------------------------------------------------->
   
-- Now move to next section <b>Generate</b>
-  - In this section you will find a Notepad like editor, where you have to follow below steps.
-    ▶ First think, how you will greet user once he opens chatbot wodget on your website. Write few messages for it.<br>
+- Now move to next section <b>Generate</b> 📌
+  - In this section you will find a Notepad like editor, where you have to follow below steps.<br>
     ▶ Start writing the data for chatbot, as displayed on **example template** in **Information Section**. <br>
     ▶ For simple generation, you can use our **pre-designed JSON data template**. Copy and Paste it in editor and start editing accordingly.<br>
     ▶ To copy and edit the demo data file, [Copy & Paste Me](https://github.com/Rutikab12/Chatbot-Web-Application/blob/main/demo-data/data.json)<br>
@@ -91,7 +90,73 @@ So once you did all necessary steps from the above section. Well, you are now go
       <td></td>
     </tr>
    </table>
+   <br><br>
+ <---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+- Now let's integrate the chatbot on the website 📌
+  <table>
+  <tr>
+    <th>Step-1: Download Zip Folder from here.</th>
+    <th>Step-2: Unzip it, and paste the two folders **demo-data** and **src** in your project folder.</th>
+  </tr>
+  <tr>
+    <td><img src="images/integration1.jpg"/></td>
+    <td><img src="images/integration2.jpg"/></td>
+  </tr>
+  <tr>
+    <th>Step-2: Unzip it, and paste the two folders **demo-data** and **src** in your project folder.</th>
+    <th>Step-3: Copy the **demo** and **src** folder.</th>
+  </tr>
+  <tr>
+    <td><img src="images/integration2.jpg"/></td>
+    <td><img src="images/integration3.jpg"/></td>
+  </tr>
+  <tr>
+    <th>Step-4: Paste those two folder in project folder.</th>
+    <th>Step-5: Now copy the **data.json** file and paste in inside **demo-data** folder.</th>
+  </tr>
+  <tr>
+    <td><img src="images/integration4.jpg"/></td>
+    <td><img src="images/integration5.jpg"/></td>
+  </tr> 
+  <tr>
+    <th>Step-6: Now copy link tags,paste it inside <head> tag of the page, where you want to integrate chatbot widget.</th>
+    <th>Step-7: Now copy script tags,paste it inside <body> tag of the page, where you want to integrate chatbot widget.</th>
+  </tr>
+  <tr>
+    <td>
+      ```
+        <link rel="stylesheet" href="src/flow.css">
+        <link rel="stylesheet" href="src/flowchat.css">
+      ```
+    </td>
+    <td>
+      ```
+      <script src="src/flowchat.js"></script>
+      <script src="src/flowchatui.js"></script>
+      <script>
+          $(function() {
+              $.getJSON("demo-data/data.json", function(dataJSON) {
+                  $('#flowchat').flowchat({
+                      dataJSON: dataJSON,
+                      autoStart: false
+                  });
+              });
+          });
+       </script>  
+      ```
+    </td>
+  </tr>
+  
+  <tr>
+    <th>Step-8: Now refresh & run the page where you have place the above tags.</th>
    
+  </tr>
+  <tr>
+    <td><img src="images/integration8.jpg"/></td>
+    
+  </tr>
+  </table>
     
     
     
