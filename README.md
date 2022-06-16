@@ -47,7 +47,7 @@ So once you did all necessary steps from the above section. Well, you are now go
   
 <hr>
   
-- Now let's go to next section <b>Information</b> 📌
+# Now let's go to next section <b>Information</b> 📌<br>
   - In this section , all the necessary steps are explained with the help of steps, as follows...<br>
     ▶ Quick links for quick navigation, at the top of the section. <br>
     ▶ Steps to enter data for chatbot in JSON format. <br>
@@ -57,7 +57,7 @@ So once you did all necessary steps from the above section. Well, you are now go
     
 <hr>
   
-- Now move to next section <b>Generate</b> 📌
+# Now move to next section <b>Generate</b> 📌<br>
   - In this section you will find a Notepad like editor, where you have to follow below steps.<br>
     ▶ Start writing the data for chatbot, as displayed on **example template** in **Information Section**. <br>
     ▶ For simple generation, you can use our **pre-designed JSON data template**. Copy and Paste it in editor and start editing accordingly.<br>
@@ -93,7 +93,7 @@ So once you did all necessary steps from the above section. Well, you are now go
 
 <hr>
 
-- Now let's integrate the chatbot on the website, **Integrate Section** 📌
+# Now let's integrate the chatbot on the website, **Integrate Section** 📌<br>
   <table>
   <tr>
     <th>Step-1: Download Zip Folder from here.</th>
