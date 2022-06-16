@@ -45,7 +45,7 @@ So once you did all necessary steps from the above section. Well, you are now go
     </tr>
    </table>
   
-  <---------------------------------------------------------------------------------------------------------------------------------------------------->
+<hr>
   
 - Now let's go to next section <b>Information</b> 📌
   - In this section , all the necessary steps are explained with the help of steps, as follows...<br>
@@ -55,7 +55,7 @@ So once you did all necessary steps from the above section. Well, you are now go
     <img src="images/readme/information section.jpg" style="height:55%;"/><br><br>
     ▶ Again for better understanding and live genration and integration of chatbot , please see this [Live Demo](#)<br>
     
-  <---------------------------------------------------------------------------------------------------------------------------------------------------->
+<hr>
   
 - Now move to next section <b>Generate</b> 📌
   - In this section you will find a Notepad like editor, where you have to follow below steps.<br>
@@ -90,7 +90,8 @@ So once you did all necessary steps from the above section. Well, you are now go
     </tr>
    </table>
    <br><br>
- <---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<hr>
 
 - Now let's integrate the chatbot on the website, **Integrate Section** 📌
   <table>
