@@ -31,7 +31,6 @@ So once you did all necessary steps from the above section. Well, you are now go
 - You will be automatically, redireted to profile section of dashboard. ➡️
   - Here you can see following type of boxes to be filled.<br><br>
     <img src="images/profile section.jpg" style="height:50%;"/><br><br>
-  - Now what all these fields indicate and expect.
   - Main purpose of these fields is to gather the business details 🔂 of the user, who is going to make the chatbot 📇. If any user don't have any business (🧑🏽‍)💼 and is a student (🧑🏾‍💻) then he can add college details or project details accordingly.
   - This gathering of details is all about the future enhancements in the project for business profile section..🔜
   - Here the first section is <b>Business Details</b> and other one is <b>Business User Role</b>, what does it define?<br><br>
@@ -93,7 +92,7 @@ So once you did all necessary steps from the above section. Well, you are now go
    <br><br>
  <---------------------------------------------------------------------------------------------------------------------------------------------------->
 
-- Now let's integrate the chatbot on the website 📌
+- Now let's integrate the chatbot on the website, **Integrate Section** 📌
   <table>
   <tr>
     <th>Step-1: Download Zip Folder from here.</th>
@@ -124,41 +123,46 @@ So once you did all necessary steps from the above section. Well, you are now go
     <th>Step-7: Now copy script tags,paste it inside <body> tag of the page, where you want to integrate chatbot widget.</th>
   </tr>
   <tr>
-    <td>
-      ```
-        <link rel="stylesheet" href="src/flow.css">
-        <link rel="stylesheet" href="src/flowchat.css">
-      ```
-    </td>
-    <td>
-      ```
-      <script src="src/flowchat.js"></script>
-      <script src="src/flowchatui.js"></script>
-      <script>
-          $(function() {
-              $.getJSON("demo-data/data.json", function(dataJSON) {
-                  $('#flowchat').flowchat({
-                      dataJSON: dataJSON,
-                      autoStart: false
-                  });
-              });
-          });
-       </script>  
-      ```
-    </td>
+     <td><img src="images/integration6.jpg"/></td>
+     <td><img src="images/integration7.jpg"/></td>
   </tr>
-  
   <tr>
     <th>Step-8: Now refresh & run the page where you have place the above tags.</th>
-   
   </tr>
   <tr>
     <td><img src="images/integration8.jpg"/></td>
     
   </tr>
   </table>
-    
-    
+  <br><br> 
+  
+<hr>
+
+# Tech Stack Behind this Project
+- HTML,CSS, Bootstrap
+- JavaScript, jQuery
+- PHP,etc.
+
+<hr>
+
+
+# People Behind this Project
+🧑🏼‍💻 **Rutik Bhoyar** | [LinkedIn](https://www.linkedin.com/in/rutik-bhoyar-5b67341b0/) <br>
+🧑🏼‍💻 **Pranay Haramwar** | <br>
+🧑🏼‍💻 **Dipak Vaidya** | <br>
+🧑🏼‍💻 **Yogesh Dongarwar** | <br>
+
+# Future Scope
+🔓 Make it available for open source contributors. <br>
+🔓 Secure backend modules, Database and additon of authentication and authorization. <br>
+🔓 Enhance UI of product website.<br>
+🔓 Enhance UI of Chatbot. <br>
+🔓 Validation of data inserted for chatbot.<br>
+🔓 Admin Dashboard validation and UI enhancements.
+
+<hr>
+
+# Thank You !
     
 
 
