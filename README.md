@@ -1,4 +1,4 @@
-# ChatConnect
+# ChatConnect <img src="images/chatbot-logo.png" height="30px" width="35px">
 
 We are team ChatConnect. This is a Final Year project at Rajiv Gandhi College of Engineering Research and Technology, Chandrapur, Maharashtra.
 This is a open source project, which helps user to create simple conversational chatbot using JSON format. We would love to welcome contributions from
@@ -161,6 +161,8 @@ So once you did all necessary steps from the above section. Well, you are now go
 🔓 Admin Dashboard validation and UI enhancements.
 
 <hr>
+
+**Note: All images,cdn,required libraries used in this project are open-sourced and do not violate their terms and regulations** <br>
 
 # Thank You !
     
