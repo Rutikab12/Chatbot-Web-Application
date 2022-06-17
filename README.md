@@ -88,8 +88,7 @@ So once you did all necessary steps from the above section. Well, you are now go
       <td><img src="images/readme/notepad4.jpg"/></td>
       <td></td>
     </tr>
-   </table>
-   <br><br>
+    </table>
 
 <hr>
 

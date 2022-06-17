@@ -4,7 +4,7 @@ $(d).addClass('chat_icon')
     .appendTo($("body")) //main div
 
 
-$("body").append(function() {
+$(".chat_icon").append(function() {
     return ($("<div>")
         .attr("id", "flowchat")
         .addClass("flow")
