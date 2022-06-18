@@ -138,6 +138,31 @@ So once you did all necessary steps from the above section. Well, you are now go
   
 <hr>
 
+```
+<link rel="stylesheet" href="src/flow.css">
+<link rel="stylesheet" href="src/flowchat.css">
+```
+
+<br>
+
+```
+<script src="src/flowchat.js"></script>
+<script src="src/flowchatui.js"></script>
+<script>
+        $(function() {
+
+            $.getJSON("demo-data/data.json", function(dataJSON) {
+                $('#flowchat').flowchat({
+                    dataJSON: dataJSON,
+                    autoStart: false
+                });
+            });
+        });
+</script>
+```
+
+<hr>
+
 # Tech Stack Behind this Project
 - HTML,CSS, Bootstrap
 - JavaScript, jQuery
