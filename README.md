@@ -1,5 +1,10 @@
 # ChatConnect <img src="images/chatbot-logo.png" height="30px" width="35px">
 
+<br><hr>
+# Please Download the project to use and Run it in any code editor you like. No need to signup or login. Directly head to the dashboard/adminpanel.html to create chtbot in your local system. Sorry for the inconvenience.
+
+<br><hr>
+
 We are team ChatConnect. This is a Final Year project at Rajiv Gandhi College of Engineering Research and Technology, Chandrapur, Maharashtra.
 This is a open source project, which helps user to create simple conversational chatbot using JSON format. We would love to welcome contributions from
 peers worldwide to make this project more secure, reliable, advanced and easy to use.
